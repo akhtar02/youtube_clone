@@ -8,20 +8,22 @@
      z-index: 100;
     background-color: #fff;
 }
+.header_left{
+    align-items: center;
+    display: flex;
+}
 
 .header_logo{
     height: 25px;
-    object-fit: contain;
     margin-left: 20px;
-    /* width: 400px; */
+    width: auto;
 }
 .header_input{
     display: flex;
     align-items: center;
     width: 40%;
-    border: 1px solid #000;
     border: 1px solid lightgray;
-
+    padding: 0 0.5rem;
 }
 .header_icon{
     margin-right: 10px;
@@ -31,6 +33,7 @@
     background-color: #fafafa;
     border-left: 1px solid lightgray;
     color: gray;
+    width: 50px !important;
 
 }
 
@@ -41,5 +44,5 @@
 .header_icons{
     display: flex;
     align-items: center;
-    /* margin-right: 20px; */
+    
 }

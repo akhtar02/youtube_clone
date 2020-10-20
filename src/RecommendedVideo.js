@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState }from 'react';
 import VideoCard from "./videoCard";
 import "./RecommendedVideo.css";
 
 function RecommendedVideo() {
+
+  
     return (
         <div className="recommendedVideos">
         <h2>Recommended</h2>
